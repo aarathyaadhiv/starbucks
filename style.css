@@ -1,0 +1,75 @@
+.header-logo{
+    height: 62px;
+    width: 62px;
+}
+
+ 
+
+.header-position{
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+    border-bottom: 1px solid rgb(120, 120, 120);
+}
+.search-bar{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 9px;
+   
+}
+.search-icons{
+    width: 20px;height: 20px;
+    margin-top: 9px;
+}
+.account-circle{
+    width: 32px;height: 32px;
+}
+.card-images{
+    height: 90px;
+    width: 90px;
+    border-radius: 45px;
+}
+.card-image-top{
+    border: none;
+}
+#image-slider1,#image-slider2,#image-slider3{
+    width:100px; height:194px;
+    
+}
+#background-texts{
+    color: #096;
+    font-family: SoDoSans_Semibold,Helvetica,sans-serif;
+    font-size: 9px;
+    background: #E6EDEB;
+    border-radius: 4px;
+    padding: 2px 4px;
+    gap: 2px;
+    letter-spacing: .06em;
+    width: auto;
+}
+.background-images{
+    height: 357px;
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    
+}
+.background-images:hover{
+    opacity: 0.8;
+}
+.card-content{
+    position: absolute;
+    bottom: 2em;
+    width: 100%;
+}
+.footer-images{
+    height: 54px;
+    width: 194px;
+    cursor: pointer;
+}
+.footer-logo{
+    height: 62px;
+    width: 62px;
+}
